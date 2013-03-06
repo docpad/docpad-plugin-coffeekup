@@ -1,5 +1,10 @@
 ## History
 
+- v2.1.4 March 7, 2013
+	- Dependency upgrades
+		-  `bal-util` from 1.13.x to ~1.16.8
+		-  `coffee-script` from 1.3.x to ~1.4.0
+
 - v2.1.3 October 8, 2012
 	- Fixed plugin name (`coffee` to `coffeekup`)
 
