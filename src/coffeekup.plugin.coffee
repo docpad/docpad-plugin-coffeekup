@@ -24,7 +24,7 @@ module.exports = (BasePlugin) ->
 			# Prepare
 			{templateData,content} = opts
 			ck = require('coffeecup')
-			ckOptions = require('bal-util').deepExtendPlainObjects({}, @config.coffeekup, @config.coffeecup)
+			ckOptions = require('extendr').deepExtendPlainObjects({}, @config.coffeekup, @config.coffeecup)
 
 			# Render
 			opts.content = ck.render(
