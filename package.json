@@ -1,44 +1,46 @@
 {
-	"name": "docpad-plugin-coffeekup",
-	"version": "2.2.0",
-	"description": "Adds support for CoffeeKup compilation to DocPad",
-	"homepage": "http://docpad.org/plugin/coffeekup",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"coffee",
-		"coffeescript",
-		"coffeekup",
-		"coffeecup"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url": "https://github.com/bevry/docpad-extras/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "http://github.com/bevry/docpad-extras.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-		"extendr": "~2.1.0",
-		"coffeecup": "~0.3.21"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.2",
-		"docpad": ">=6.37 <7"
-	},
-	"main": "./out/coffeekup.plugin.js",
-	"scripts": {
-		"test": "node ./out/coffeekup.test.js"
-	}
+  "name": "docpad-plugin-coffeekup",
+  "version": "2.2.0",
+  "description": "Adds support for CoffeeKup compilation to DocPad",
+  "homepage": "http://docpad.org/plugin/coffeekup",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "coffee",
+    "coffeescript",
+    "coffeekup",
+    "coffeecup"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/bevry/docpad-extras/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bevry/docpad-extras.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "extendr": "~2.1.0",
+    "coffeecup": "~0.3.21"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "main": "./out/coffeekup.plugin.js",
+  "scripts": {
+    "test": "node ./out/coffeekup.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
