@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/docpad/docpad-plugin-coffeekup.git"
+    "url": "https://github.com/docpad/docpad-plugin-coffeekup.git"
   },
   "engines": {
     "node": ">=0.4"
