@@ -19,11 +19,11 @@
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "bugs": {
-    "url": "https://github.com/bevry/docpad-extras/issues"
+    "url": "https://github.com/docpad/docpad-plugin-coffeekup/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/bevry/docpad-extras.git"
+    "url": "http://github.com/docpad/docpad-plugin-coffeekup.git"
   },
   "engines": {
     "node": ">=0.4"
