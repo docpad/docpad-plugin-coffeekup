@@ -35,7 +35,7 @@
   "devDependencies": {
     "coffee-script": "~1.6.2",
     "docpad": "6",
-    "projectz": "~0.3.11"
+    "projectz": "~0.3.13"
   },
   "main": "./out/coffeekup.plugin.js",
   "scripts": {
