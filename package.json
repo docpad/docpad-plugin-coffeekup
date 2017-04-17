@@ -82,7 +82,7 @@
   "main": "es5/coffeekup.plugin.js",
   "dependencies": {
     "coffeecup": "~0.3.21",
-    "extendr": "~2.1.0"
+    "extendr": "^3.2.2"
   },
   "devDependencies": {
     "coffee-script": "^1.12.5",

@@ -23,7 +23,7 @@ module.exports = (BasePlugin) ->
 		renderCoffeeKup: (opts,next) ->
 			# Prepare
 			ck = require('coffeecup')
-			ckOptions = require('extendr').deepExtendPlainObjects({}, @config.coffeekup, @config.coffeecup)
+			ckOptions = require('extendr').deep({}, @config.coffeekup or {}, @config.coffeecup or {})
 
 			# Render
 			opts.content = ck.render(opts.content, opts.templateData, ckOptions)
