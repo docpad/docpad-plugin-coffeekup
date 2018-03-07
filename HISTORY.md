@@ -1,5 +1,9 @@
 # History
 
+## v2.5.0 2018 March 7
+- Now compiled with CoffeeScript v2
+- Updated base files
+
 ## v2.4.0 2017 April 17
 - Updated dependencies
 
@@ -18,8 +22,8 @@
 
 ## v2.1.4 2013 March 7
 - Updated dependencies
-	- `bal-util` from 1.13.x to ~1.16.8
-	- `coffee-script` from 1.3.x to ~1.4.0
+    - `bal-util` from 1.13.x to ~1.16.8
+    - `coffee-script` from 1.3.x to ~1.4.0
 
 ## v2.1.3 2012 October 8
 - Fixed plugin name (`coffee` to `coffeekup`)
