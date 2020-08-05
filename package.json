@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-coffeekup",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Adds support for CoffeeKup compilation to DocPad",
   "homepage": "https://github.com/docpad/docpad-plugin-coffeekup",
   "license": "MIT",
@@ -102,8 +102,8 @@
     "@bevry/update-contributors": "^1.15.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
-    "docpad": "^6.82.5",
-    "docpad-plugintester": "^1.6.1",
+    "docpad": "^6.83.1",
+    "docpad-plugintester": "^1.6.2",
     "projectz": "^2.13.0",
     "valid-directory": "^2.8.0"
   },
