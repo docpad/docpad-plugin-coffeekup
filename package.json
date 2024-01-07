@@ -99,7 +99,7 @@
   "dependencies": {
     "coffeecup": "~0.3.21",
     "docpad-baseplugin": "^1.4.0",
-    "extendr": "^5.16.0"
+    "extendr": "^7.10.0"
   },
   "devDependencies": {
     "@bevry/update-contributors": "^1.18.0",
